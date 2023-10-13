@@ -1,3 +1,8 @@
 body {
     background-color: #FBE3f0;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+}
