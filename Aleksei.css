@@ -37,7 +37,7 @@ img {
   margin: 0.8rem 0 0.8rem 0.8rem;
 }
 
-.varför {
+.varför-div {
   border: 2px solid black;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -63,5 +63,9 @@ p {
     max-width: 32%;
     max-height: 60vh;
   }
+
+  .slogan-div, .historia-div, .varför-div {
+    max-width: 60%;
+  } 
 
 }
