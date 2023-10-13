@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  margin: 0;
+}
+
+img {
+  max-width: 60%;
+  max-height: 70vh;
+}
+
+.beskrivning {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.slogan {
+ margin: 0.8rem 0 0.8rem 0.8rem;
+}
+
+.slogan-div {
+  border: 2px solid black;
+  margin-top: 2rem;
+  max-width: 100%;
+}
+
+.historia-div {
+  border: 2px solid black;
+  margin-top: 2rem;
+  max-width: 100%;
+}
+
+.historia {
+  margin: 0.8rem 0 0.8rem 0.8rem;
+}
+
+.varför {
+  border: 2px solid black;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 100%;
+}
+
+.varför1 {
+  margin: 0.8rem 0 0.8rem 0.8rem;
+}
+
+h2, h3, h4 {
+  padding: 0.4rem;
+}
+
+p {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+@media (min-width: 900px) {
+  
+  img {
+    max-width: 32%;
+    max-height: 60vh;
+  }
+
+}
