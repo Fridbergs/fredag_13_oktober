@@ -37,6 +37,8 @@ img {
 .content {
     display: flex;
     flex-direction: column;
+    min-width: auto;
+    max-width: max-content;
 }
 
 .content>h1 {
@@ -47,6 +49,7 @@ img {
 
 .content>p {
     text-align: center;
+    font-size: 1em;
 }
 
 
@@ -70,13 +73,13 @@ img {
         object-fit: cover;
     }
 
-    .content > p {
-        font-size: 1rem;
+    .content>p {
+        font-size: 0.8em;
         text-align: left;
         margin-left: 1rem;
     }
 
-    .content > h1 {
+    .content>h1 {
         text-shadow: 2px 2px 4px gray;
     }
 }
