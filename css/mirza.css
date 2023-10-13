@@ -10,7 +10,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
-    
+
 }
 
 .main-container {
@@ -19,6 +19,7 @@ main {
     width: 80vw;
     border-radius: 7px;
     box-shadow: 0 0 9px 5px lightgray inset;
+    transition: all 1s;
 }
 
 img {
@@ -38,14 +39,23 @@ img {
     flex-direction: column;
 }
 
-.content > h1 {
+.content>h1 {
     text-align: center;
     margin: 1rem 0;
     text-transform: uppercase;
 }
 
-.content > p {
+.content>p {
     text-align: center;
+}
+
+
+.main-container:hover {
+    box-shadow: 0 0 9px 5px lightgray;
+}
+
+.main-container:hover img {
+    transform: scale(0.97)
 }
 
 @media (min-width: 900px) {
@@ -64,5 +74,9 @@ img {
         font-size: 1rem;
         text-align: left;
         margin-left: 1rem;
+    }
+
+    .content > h1 {
+        text-shadow: 2px 2px 4px gray;
     }
 }
