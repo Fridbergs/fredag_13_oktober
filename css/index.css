@@ -1,8 +1,73 @@
 body {
+    border: 2px solid blue;
+    max-width: 100%;
     background-color: #FBE3f0;
+    margin: 1rem;
+}
+
+nav {
+    border: 1px solid purple;
 }
 
 header {
+    margin: 1rem;
+    border: 1px solid salmon;
+}
+
+h1 {
+    margin: 1rem 0;
+}
+
+main {
     display: flex;
     flex-direction: column;
+    margin: 1rem;
+    align-items: center;
 }
+
+.welcome-section {
+    margin: 1rem;
+}
+
+.card-section {
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid hotpink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+article {
+    max-width: min-content;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+article img {
+    max-width: 100%;
+}
+
+.article-img-container {
+    width: 25%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .card-section {
+        width: 100%;
+        border: 1px solid hotpink;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 5%;
+        flex-wrap: wrap;
+    }
+   }
+   
