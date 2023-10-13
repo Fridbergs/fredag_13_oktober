@@ -1,0 +1,29 @@
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem ;
+}
+
+.club-card {
+    background-color: violet;
+    border: 0.2rem solid darkgrey;
+    border-radius: 0.5rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+img {
+    width: 80%;
+}
+
+.profile {
+    width: 50%;
+}
