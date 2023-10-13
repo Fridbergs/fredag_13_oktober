@@ -3,6 +3,15 @@
     font-family: "Consolas", sans-serif;
 }
 nav {
+    text-align: center;
+}
+
+nav a{
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem 0rem;
 }
 
 header{
