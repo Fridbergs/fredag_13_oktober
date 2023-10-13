@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    font-family: "Consolas", sans-serif;
+}
+
+body {
+    /* overflow: hidden; */
+}
+
+main {
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    
+}
+
+.main-container {
+    margin: 2rem 10vw;
+    background: white;
+    width: 80vw;
+    border-radius: 7px;
+    box-shadow: 0 0 9px 5px lightgray inset;
+}
+
+img {
+    width: 100%;
+    border-radius: 7px;
+    box-shadow: 0 0 1px 1px lightgray;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content > h1 {
+    text-align: center;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+.content > p {
+    text-align: center;
+}
+
+@media (min-width: 900px) {
+    .card {
+        flex-direction: row;
+        height: 50vh;
+    }
+
+    img {
+        height: auto;
+        max-width: 250px;
+        object-fit: cover;
+    }
+
+    .content > p {
+        font-size: 1rem;
+        text-align: left;
+        margin-left: 1rem;
+    }
+}
